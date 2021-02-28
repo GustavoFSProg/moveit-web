@@ -1,11 +1,11 @@
 import React from 'react'
-import Button from './components/Button'
+import { ExperienceBar } from './components/ExperienceBar'
 import './styles/global.css'
 
 function App() {
   return (
-    <div className="App">
-      <button style={{ height: '2rem' }}></button>
+    <div className="container">
+      <ExperienceBar />
     </div>
   )
 }
